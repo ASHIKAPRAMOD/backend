@@ -1,9 +1,9 @@
-var mongoose=require('mongoose');
-var schema=mongoose.Schema({
-    Name:String,
-    Age:Number,
-    Departments:String,
-    Salary:Number
+var mongoose = require('mongoose')
+var schema = mongoose.Schema({
+    Name: String,
+    Age: Number,
+    Department: String,
+    Sallary:Number
 })
-var employee1=mongoose.model('employee',schema)
-module.exports=employee1
+var employeemodel = mongoose.model("employee", schema)
+module.exports=employeemodel
